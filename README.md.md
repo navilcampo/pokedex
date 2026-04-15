@@ -128,7 +128,7 @@ Durante esta etapa se identificaron los siguientes inconvenientes:
 
 ### 3.9 Verificación del despliegue
 
-Finalmente, se accedió a la URL generada por Azure para verificar que la aplicación funcionara correctamente. Se realizaron pruebas de navegación y funcionamiento general del sistema.
+Finalmente, se accedió a la URL publica generada por Azure para verificar que la aplicación funcionara correctamente. Se realizaron pruebas de navegación y funcionamiento general del sistema.
 
 ----------
 
@@ -136,10 +136,8 @@ Finalmente, se accedió a la URL generada por Azure para verificar que la aplica
 
 El despliegue de una aplicación en Microsoft Azure permitió comprender la importancia de la correcta configuración del entorno de desarrollo, la organización de los archivos del proyecto y la gestión de dependencias.
 
-Los errores presentados, especialmente relacionados con la ausencia del archivo `package.json` y el uso incorrecto de rutas, evidencian la necesidad de una revisión detallada antes de ejecutar comandos o realizar despliegues.
-
 En conclusión, Azure se posiciona como una herramienta eficiente para la publicación de aplicaciones web, siempre y cuando se sigan buenas prácticas en el desarrollo y configuración del proyecto.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjczODg5MCwtMjA4ODc0NjYxMiwxMz
-kxMTQyNjI0LC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTE2NzQwNjQzMTIsLTIwODg3NDY2MTIsMT
+M5MTE0MjYyNCwtMzMyNDU1MzYzXX0=
 -->
