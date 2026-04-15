@@ -1,142 +1,100 @@
+# CREACIÓN DE UNA CUENTA EN MICROSOFT AZURE
+
 ## 1. Introducción
 
-En la actualidad, el uso de plataformas en la nube se ha convertido en una solución fundamental para el desarrollo, implementación y distribución de aplicaciones web. Una de las herramientas más utilizadas es Microsoft Azure, la cual permite a los desarrolladores desplegar aplicaciones de manera eficiente y escalable.
+Para poder realizar el despliegue de una aplicación web en la nube, es necesario contar con una cuenta activa en una plataforma de servicios cloud. En este caso, se utilizó Microsoft Azure, una herramienta que permite crear, administrar y desplegar aplicaciones de manera remota.
 
-El presente trabajo describe de manera detallada el proceso de despliegue de una aplicación web desarrollada en Angular, desde la preparación del entorno local hasta su publicación en la nube. Asimismo, se documentan los principales inconvenientes presentados durante el proceso y las soluciones aplicadas.
+ se describe de forma detallada el proceso de creación de una cuenta en Azure, incluyendo cada uno de los pasos necesarios y los posibles inconvenientes presentados.
 
 ----------
 
-## 2. Objetivos
+## 2. Objetivo
 
 ### 2.1 Objetivo general
 
-Desplegar una aplicación web en la plataforma Microsoft Azure, comprendiendo cada una de las etapas del proceso.
+Crear una cuenta en Microsoft Azure que permita el acceso a los servicios en la nube necesarios para el despliegue de aplicaciones.
 
 ### 2.2 Objetivos específicos
 
--   Configurar el entorno de desarrollo local.
--   Instalar y gestionar dependencias del proyecto.
--   Ejecutar la aplicación en un entorno local.
--   Implementar la aplicación en la nube.
--   Identificar y solucionar errores durante el despliegue.
+-   Acceder al portal oficial de Azure
+-   Registrar un usuario en la plataforma
+-   Verificar la identidad del usuario
+-   Configurar un método de pago
+-   Obtener acceso al panel principal de Azure
 
 ----------
 
 ## 3. Desarrollo del proceso
 
-### 3.1 Preparación del entorno de desarrollo
+### 3.1 Acceso al portal oficial
 
-Inicialmente, se realizó la configuración del entorno de trabajo en un sistema operativo Windows. Para ello, se instalaron las siguientes herramientas:
-
--   Node.js (entorno de ejecución JavaScript).
--   Git (sistema de control de versiones).
-
-Posteriormente, se descargó el proyecto desde un repositorio, el cual contenía una aplicación desarrollada en Angular.
+En primer lugar, se accedió al sitio web oficial de Microsoft Azure mediante un navegador web. Una vez dentro del portal, se seleccionó la opción **“Comenzar gratis”** o **“Crear cuenta”**, la cual permite iniciar el proceso de registro.
 
 ----------
 
-### 3.2 Exploración del proyecto
+### 3.2 Registro de usuario
 
-Una vez descargado el proyecto, se procedió a revisar su estructura de carpetas mediante comandos como:
+Posteriormente, se procedió a registrar un usuario mediante una cuenta de Microsoft. En caso de no contar con una cuenta previa, fue necesario crearla ingresando la siguiente información:
 
-dir
+-   Dirección de correo electrónico
+-   Contraseña
+-   País o región
+-   Fecha de nacimiento
 
-Durante esta fase se presentó el primer inconveniente:
+Una vez completados estos datos, se realizó la verificación del correo electrónico mediante un código enviado automáticamente.
 
-**Error presentado:**
+----------
 
-npm error enoent Could not read package.json
+### 3.3 Verificación de identidad
 
-**Causa del error:**  
-El comando se estaba ejecutando en una carpeta incorrecta (`source`), donde no existía el archivo necesario para la gestión de dependencias.
+Como parte del proceso de seguridad, Azure solicitó la verificación de identidad del usuario mediante un número de teléfono. Se ingresó el número correspondiente y se recibió un código de confirmación vía mensaje de texto (SMS), el cual fue introducido en la plataforma para validar la cuenta.
+
+----------
+
+### 3.4 Registro del método de pago
+
+A continuación, se solicitó el registro de una tarjeta de crédito o débito. Este paso es obligatorio, incluso para acceder a la versión gratuita de Azure, ya que permite validar la identidad del usuario.
+
+Es importante resaltar que, durante este proceso, no se generaron cargos, debido a que se utilizó la suscripción gratuita ofrecida por la plataforma.
+
+----------
+
+### 3.5 Aceptación de términos y condiciones
+
+Antes de finalizar el registro, se procedió a leer y aceptar los términos y condiciones de uso de Microsoft Azure. Esto incluye políticas de privacidad, condiciones del servicio y aspectos relacionados con la facturación.
+
+----------
+
+### 3.6 Acceso al portal de Azure
+
+Una vez completados todos los pasos anteriores, se obtuvo acceso al portal principal de Azure, donde se pueden administrar los diferentes servicios en la nube.
+
+Desde este panel es posible:
+
+-   Crear recursos
+-   Administrar aplicaciones
+-   Configurar servicios
+-   Supervisar el rendimiento
+
+----------
+
+### 3.7 Inconvenientes presentados
+
+Durante el proceso de creación de la cuenta, se identificaron algunos inconvenientes comunes:
+
+-   Retrasos en la verificación por SMS
+-   Errores en el registro del método de pago
+-   Complejidad del portal inicial
 
 **Solución:**  
-Se identificó que el proyecto real se encontraba dentro de la carpeta `pokedex-angular`. Al ingresar a dicha carpeta, se encontró correctamente el archivo `package.json`.
-
-----------
-
-### 3.3 Instalación de dependencias
-
-Una vez ubicada la carpeta correcta, se ejecutó el siguiente comando:
-
-npm install
-
-Este proceso permitió instalar todas las dependencias necesarias para la ejecución del proyecto.
-
-----------
-
-### 3.4 Ejecución de la aplicación en entorno local
-
-Posteriormente, se procedió a ejecutar la aplicación en el entorno local mediante:
-
-npm  start
-
-o
-
-npm run build
-
-Esto permitió verificar el correcto funcionamiento de la aplicación antes de su despliegue.
-
-----------
-
-### 3.5 Configuración del repositorio
-
-El proyecto fue gestionado mediante un repositorio en GitHub, configurando las credenciales del usuario y permitiendo el control de versiones del código.
-
-----------
-
-### 3.6 Creación del servicio en Azure
-
-Dentro del portal de Microsoft Azure, se creó un servicio de aplicación (App Service), el cual permite alojar aplicaciones web.
-
-Se configuraron parámetros como:
-
--   Sistema operativo
--   Entorno de ejecución (Node.js)
--   Plan de servicio
-
-----------
-
-### 3.7 Despliegue de la aplicación
-
-El despliegue se realizó mediante la integración con GitHub, utilizando el Deployment Center de Azure. Esto permitió automatizar el proceso de publicación de la aplicación.
-
-----------
-
-### 3.8 Problemas durante el despliegue
-
-Durante esta etapa se identificaron los siguientes inconvenientes:
-
-#### Problema 1: Error ENOENT
-
--   **Descripción:** No se encontraba el archivo `package.json`.
--   **Causa:** Ejecución en directorio incorrecto.
--   **Solución:** Ubicación correcta del proyecto.
-
-#### Problema 2: Fallos en la compilación
-
--   **Causa:** Dependencias no instaladas o scripts mal configurados.
--   **Solución:** Revisión del archivo `package.json`.
-
-#### Problema 3: Ruta incorrecta en Azure
-
--   **Causa:** El proyecto no estaba en la raíz del repositorio.
--   **Solución:** Configuración adecuada de la ruta o reorganización del proyecto.
-
-----------
-
-### 3.9 Verificación del despliegue
-
-Finalmente, se accedió a la URL publica generada por Azure para verificar que la aplicación funcionara correctamente. Se realizaron pruebas de navegación y funcionamiento general del sistema.
+Se verificaron cuidadosamente los datos ingresados, se repitió el proceso de validación cuando fue necesario y se exploró el entorno de Azure de manera progresiva para familiarizarse con su uso.
 
 ----------
 
 ## 4. Conclusión
 
-El despliegue de una aplicación en Microsoft Azure permitió comprender la importancia de la correcta configuración del entorno de desarrollo, la organización de los archivos del proyecto y la gestión de dependencias.
-
-En conclusión, Azure se posiciona como una herramienta eficiente para la publicación de aplicaciones web, siempre y cuando se sigan buenas prácticas en el desarrollo y configuración del proyecto.
+La creación de una cuenta en Microsoft Azure es un paso fundamental para poder acceder a servicios en la nube y realizar el despliegue de aplicaciones web. Aunque el proceso es relativamente sencillo, requiere cumplir con ciertos requisitos de verificación y configuración.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQxMTEyMzgsLTIwODg3NDY2MTIsMT
-M5MTE0MjYyNCwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbNTEyMTg5NjQ4LC0xOTk0MTExMjM4LC0yMD
+g4NzQ2NjEyLDEzOTExNDI2MjQsLTMzMjQ1NTM2M119
 -->
