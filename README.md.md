@@ -30,7 +30,6 @@ Inicialmente, se realizó la configuración del entorno de trabajo en un sistema
 
 -   Node.js (entorno de ejecución JavaScript).
 -   Git (sistema de control de versiones).
--   Visual Studio Code (editor de código).
 
 Posteriormente, se descargó el proyecto desde un repositorio, el cual contenía una aplicación desarrollada en Angular.
 
@@ -138,6 +137,6 @@ El despliegue de una aplicación en Microsoft Azure permitió comprender la impo
 
 En conclusión, Azure se posiciona como una herramienta eficiente para la publicación de aplicaciones web, siempre y cuando se sigan buenas prácticas en el desarrollo y configuración del proyecto.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQwNjQzMTIsLTIwODg3NDY2MTIsMT
+eyJoaXN0b3J5IjpbLTE5OTQxMTEyMzgsLTIwODg3NDY2MTIsMT
 M5MTE0MjYyNCwtMzMyNDU1MzYzXX0=
 -->
