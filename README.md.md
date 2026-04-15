@@ -28,7 +28,7 @@ Crear una cuenta en Microsoft Azure que permita el acceso a los servicios en la 
 
 ### 3.1 Acceso al portal oficial
 
-En primer lugar, se accedió al sitio web oficial de Microsoft Azure mediante un navegador web. Una vez dentro del portal, se seleccionó la opción **“Comenzar gratis”** o **“Crear cuenta”**, la cual permite iniciar el proceso de registro.
+En primer lugar, se accedió al sitio web oficial de Microsoft Azure mediante un navegador web. Una vez dentro del portal, se seleccionó la opción Comenzar gratis
 
 ----------
 
@@ -47,7 +47,7 @@ Una vez completados estos datos, se realizó la verificación del correo electr�
 
 ### 3.3 Verificación de identidad
 
-Como parte del proceso de seguridad, Azure solicitó la verificación de identidad del usuario mediante un número de teléfono. Se ingresó el número correspondiente y se recibió un código de confirmación vía mensaje de texto (SMS), el cual fue introducido en la plataforma para validar la cuenta.
+Como parte del proceso de seguridad, Azure solicitó la verificación de identidad del usuario mediante un número de teléfono. Se ingresó el número correspondiente y se recibió un código de confirmación vía mensaje de texto.
 
 ----------
 
@@ -95,6 +95,6 @@ Se verificaron cuidadosamente los datos ingresados, se repitió el proceso de va
 
 La creación de una cuenta en Microsoft Azure es un paso fundamental para poder acceder a servicios en la nube y realizar el despliegue de aplicaciones web. Aunque el proceso es relativamente sencillo, requiere cumplir con ciertos requisitos de verificación y configuración.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyMTg5NjQ4LC0xOTk0MTExMjM4LC0yMD
-g4NzQ2NjEyLDEzOTExNDI2MjQsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTE5NTg4MzY2ODYsLTE5OTQxMTEyMzgsLT
+IwODg3NDY2MTIsMTM5MTE0MjYyNCwtMzMyNDU1MzYzXX0=
 -->
